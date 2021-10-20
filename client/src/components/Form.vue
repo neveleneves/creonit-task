@@ -57,7 +57,7 @@
           <div class="invalid-feedback">{{ error.email }}</div>
         </label>
       </div>
-      <div class="form-group">
+      <div class="form-group mb-2">
         <label class="d-block">
           <div class="mb-2">Комментарий</div>
           <textarea
