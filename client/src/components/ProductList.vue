@@ -1,6 +1,6 @@
 <template>
   <section class="container mb-5">
-    <form @submit.prevent="onSubmit" class="mb-2">
+    <form @submit.prevent="onSubmit" class="mb-3">
       <div class="d-flex w-50 justify-content-between">
         <button type="submit" class="btn btn-primary">Вывести товары</button>
         <input
@@ -23,7 +23,6 @@
 </template>
 
 <script>
-import "bootstrap/dist/css/bootstrap.min.css";
 import ProductCard from "@/components/ProductCard.vue";
 
 /**
